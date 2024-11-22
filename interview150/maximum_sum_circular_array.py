@@ -28,7 +28,6 @@ def solve(arr):
        return s1
     
    
-   
            
 arr =[-3,-2,-3]
 res = solve(arr)
