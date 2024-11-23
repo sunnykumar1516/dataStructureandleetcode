@@ -1,9 +1,12 @@
 # question number 172
 
 def solve(n):
-    while(n>=)
-    x = n//5
-    print(x)
-    
+    x = 5
+    sum = 0
+    while(n >= x):
+        sum = sum+ n//x
+        x = x*5
+    return sum
 n=  100
-solve(n)
+res = solve(n)
+print(res)
